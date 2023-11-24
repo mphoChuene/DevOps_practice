@@ -30,7 +30,7 @@ jobs:
         run: |
           # Determine the Firebase Hosting Channel based on the branch name
           if [ "${{ github.ref }}" = "refs/heads/main" ]; then
-            firebase deploy --only hosting --token "$FIREBASE_TOKEN"
+            CHANNEL="main"
           elif [ "${{ github.ref }}" = "refs/heads/prod" ]; then
             CHANNEL="prod"
           else
