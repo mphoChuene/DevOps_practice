@@ -35,7 +35,7 @@ jobs:
             CHANNEL="prod"
           else
             # If the branch is not main or prod, exit without deploying
-            echo "Branch does not exist."
+            echo "Branch does not exist. ndsndasndasndnas"
             exit 0
           fi
           # Deploy your application to specified Hosting Chanel
