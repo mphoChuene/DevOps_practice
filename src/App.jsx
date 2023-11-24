@@ -28,6 +28,7 @@ function App() {
       <p className="read-the-docs">
         <button>click</button>
         <button>click2</button>
+        <button>click3</button>
       </p>
     </>
   )
