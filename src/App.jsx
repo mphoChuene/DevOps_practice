@@ -27,6 +27,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         <button>click</button>
+        <button>click2</button>
       </p>
     </>
   )
